@@ -48,3 +48,5 @@
   - [`import`](https://github.com/import-js/eslint-plugin-import/): helps validate proper imports
 
   - [`simple-import-sort`](https://github.com/lydell/eslint-plugin-simple-import-sort/): sorts imports
+
+  - [`unused-imports`](https://github.com/sweepline/eslint-plugin-unused-imports): checks for unused imports
