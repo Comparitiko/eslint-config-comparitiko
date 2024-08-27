@@ -38,6 +38,8 @@
    export default [...eslintConfigComparitiko];
    ```
 
+   - You need also configure your `tsconfig.json` file in the root of your project to use the `typescript` configuration same way as the `eslint.config.mjs` file.
+
 ## 🤔 What it does
 
 - Lints JavaScript using [`eslint:recommended`](https://eslint.org/docs/latest/user-guide/configuring/configuration-files#using-eslintrecommended) and [Prettier](https://prettier.io/)
