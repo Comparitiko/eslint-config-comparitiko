@@ -43,3 +43,8 @@
 - Lints JavaScript using [`eslint:recommended`](https://eslint.org/docs/latest/user-guide/configuring/configuration-files#using-eslintrecommended) and [Prettier](https://prettier.io/)
 - Additionally, lints TypeScript using [`@typescript-eslint/recommended`](https://typescript-eslint.io/docs/linting/configs)
 - Uses the following [JavaScript rules](https://github.com/Comparitiko/eslint-config-comparitiko/blob/main/eslint.config.mjs) and [TypeScript rules](https://github.com/Comparitiko/eslint-config-comparitiko/blob/main/typescript.js)
+- Uses the following plugins:
+
+  - [`import`](https://github.com/import-js/eslint-plugin-import/): helps validate proper imports
+
+  - [`simple-import-sort`](https://github.com/lydell/eslint-plugin-simple-import-sort/): sorts imports
