@@ -1,3 +1,4 @@
+import * as tsParser from "@typescript-eslint/parser";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 
@@ -6,7 +7,15 @@ import eslintConfigComparitiko from "./index.js";
 export default [
   ...eslintConfigComparitiko,
   ...tseslint.configs.recommended,
-  { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
+  {
+    languageOptions: {
+      parserOptions: {
+        project: "./tsconfig.json",
+      },
+      globals: { ...globals.browser, ...globals.node },
+      parser: tsParser,
+    },
+  },
   { files: ["**/*.{ts}"] },
   {
     rules: {
