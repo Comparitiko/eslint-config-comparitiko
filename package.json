@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-comparitiko",
+  "version": "0.0.1",
+  "description": "Comparitiko's ESLint and Prettier Config",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./typescript": "./typescript.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "author": "Comparitiko",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Comparitiko/eslint-config-comparitiko.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "ecmascript",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "config",
+    "prettier",
+    "comparitiko"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Comparitiko/eslint-config-comparitiko/issues"
+  },
+  "homepage": "https://github.com/Comparitiko/eslint-config-comparitiko#readme",
+  "dependencies": {
+    "@eslint/js": "^9.9.1",
+    "globals": "^15.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.9.1"
+  }
+}
