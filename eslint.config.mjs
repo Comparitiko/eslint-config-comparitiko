@@ -18,6 +18,11 @@ export default [
       "arrow-body-style": ["error", "as-needed"],
       "capitalized-comments": ["error", "always"],
       curly: ["error", "multi-or-nest"],
+      eqeqeq: ["error", "always"],
+      "no-unneeded-ternary": "error",
+      "no-unreachable-loop": "error",
+      "no-use-before-define": "error",
+      "no-useless-assignment": "error",
     },
   },
 ];
